@@ -39,7 +39,7 @@ func main() {
 	r.POST("/books", handler.createBookHandler)
 	r.DELETE("/books/:id", handler.deleteBookHandler)
 
-	r.Run(":8080")
+	r.Run()
 
 }
 
